@@ -147,7 +147,7 @@ const AgeCalculator = () => {
     `w-full px-4 py-5 md:text-3xl text-lg font-bold rounded-lg border ${
       error
         ? 'border-red-500 focus:border-red-500 focus:ring-red-500'
-        : 'border-gray-300 focus:border-purple-500 focus:ring-purple-500'
+        : 'border-gray-300 focus:border-violet-purple focus:ring-violet-purple'
     } focus:outline-none focus:ring-2`;
 
   return (
