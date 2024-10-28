@@ -151,8 +151,8 @@ const AgeCalculator = () => {
     } focus:outline-none focus:ring-2`;
 
   return (
- <div className='bg-off-white min-h-screen pt-48 md:pt-12'>
-     <div className="md:max-w-4xl max-w-xl min-h-full mx-auto p-16 bg-white rounded-3xl rounded-br-[100px] shadow-lg font-poppins">
+ <div className='bg-off-white min-h-screen flex items-center container mx-auto'>
+     <div className="md:max-w-4xl max-w-xl min-h-full mx-auto p-16 bg-white rounded-3xl rounded-br-[150px] shadow-lg font-poppins">
       <form onSubmit={handleSubmit} className="space-y-8">
         <div className="grid grid-cols-3 md:grid-cols-4 gap-6">
           <div>
